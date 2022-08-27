@@ -1,9 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { SharedModule } from 'src/app/shared/shared.module';
+import { SpinnerModule } from 'src/app/shared/components/spinner/spinner.module';
 
 @NgModule({
   declarations: [],
-  imports: [CommonModule, SharedModule],
+  imports: [CommonModule, SpinnerModule],
 })
 export class UserModule {}
