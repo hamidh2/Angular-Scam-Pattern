@@ -9,13 +9,11 @@ import { ImageUploaderComponent } from './components/image-uploader/image-upload
 import { NgModule } from '@angular/core';
 import { ProductStatusPipe } from './pipes/product-status/product-status.pipe';
 import { RandomColorDirective } from './directives/random-color/random-color.directive';
-import { SpinnerComponent } from './components/spinner/spinner.component';
 import { TimelineComponent } from './components/timeline/timeline.component';
 
 @NgModule({
   declarations: [
     AvatarComponent,
-    SpinnerComponent,
     ConfirmDialogComponent,
     EmptyContentComponent,
     TimelineComponent,
@@ -33,7 +31,6 @@ import { TimelineComponent } from './components/timeline/timeline.component';
   ],
   exports: [
     AvatarComponent,
-    SpinnerComponent,
     ConfirmDialogComponent,
     EmptyContentComponent,
     TimelineComponent,
